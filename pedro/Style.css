@@ -1,0 +1,85 @@
+body{
+    background-image: url('https://cdn.discordapp.com/attachments/817433018280443955/1269392242775166986/pexels-photo-315938.png');    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+*{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+form{
+    width: 250px; 
+    padding: 1.5rem; 
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    color: aliceblue;
+}
+
+h1{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    text-align: center; 
+}
+
+label{
+    color: aliceblue;
+    font-size: 16px; 
+    padding: 5px 0;
+    font-weight: 350;
+}
+
+input{
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0; 
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+button{
+    background-color: #00f1dc;
+    padding: .5rem;
+    color: white;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+a{
+    display: block; 
+    margin-top: 10px;
+    text-align: center; 
+    color: rgb(27, 56, 82); 
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+
+.error{
+    background-color: rgb(175, 74, 74);
+    color: black;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 20px 0;
+}
