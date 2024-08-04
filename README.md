@@ -1,7 +1,7 @@
 # Login
 Este es un login hecho a partir de PHP y SQL(html,css,etc). Este codigo cuenta un sistema completo tanto de registro como de login, con 2 tipos de cifrados diferentes para poder manter seguro toda las informaciones de los usuarios y no ser tan visibles para los atacates los datos almacenados.
 
-##Necesario (Guia)
+## Necesario (Guia)
 Para esto es necesario una una base de datos en este caso llamada pedro y con una tabla llamada usuarios pero si usted justa realizar una base de datos diferente puede obtar por cambiar la siguiente linea de codigo de los siguientes archivo `<Conexion.php>` , `<IniciarSeccion.php>`  y `<Registrar.php>`  
 
 ![image](https://github.com/user-attachments/assets/66ba50a2-a6bc-4752-a1f9-f0c4d68ae562)
@@ -31,4 +31,15 @@ CREATE TABLE usuario (
 
 (Ignorar cualquier falta ortografica)
 
+## Guia De Instalacion
 
+Despues de intalar Xampp, vamos a mover este repositorio (La carpeta `Pedro`) a la ruta del programa `XAMPP`, la cual posiblemente sea la siguiente.
+
+> C:\xampp\htdocs\
+
+Ahora vamos a acceder a `XAMPP Control Panel` y vamos a actiar Apache y Mysql.
+![image](https://github.com/user-attachments/assets/7694419d-d59d-4dac-b18b-b063e1f9ceb2)
+
+Luego de esto y de haber creado la base de datos con las configuraciones que mencionamos anteriormente ya podremos acceder a nuestra web de forma local. Utilizando la siguiente URL que deberia de ser la siguiente.
+
+> http://localhost/pedro/Index.php
